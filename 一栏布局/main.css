@@ -1,0 +1,39 @@
+body {
+    margin: 0;
+}
+
+
+#topbar {
+    border: 1px solid blue;
+    padding: 30px;
+}
+
+#topbar .inner {
+    border: 1px solid green;
+    max-width: 900px;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    align-items: center;
+}
+
+#topbar .logo {
+    width: 50px;
+    height: 50px;
+    background: #ccc;
+}
+
+#topbar .sologn {
+    flex-grow: 1;
+    text-align: center;
+    border: 1px solid;
+}
+
+main {
+    max-width: 900px;
+    min-height: 500px;
+    border: 1px solid red;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 10px;
+}
