@@ -1,0 +1,22 @@
+body {
+    margin: 0;
+}
+
+.layout {
+    max-width: 800px;
+    margin: 0 auto;
+    border: 1px solid red;
+}
+
+aside {
+    width: 200px;
+    min-height: 400px;
+    background: #ddd;
+    float: left;
+}
+
+main {
+    background: #666;
+    min-height: 750px;
+    margin-left: 210px;
+}
