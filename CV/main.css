@@ -54,6 +54,7 @@ header {
     padding: 5px 0;
     border-bottom: 5px solid;
     text-transform: uppercase;
+	  float: left;
 }
 
 .contacts .way {
@@ -71,8 +72,9 @@ header {
 .way a span {
     display: inline-block;
     font-weight: 600;
-    width: 20px;
+    width: 30px;
     text-transform: uppercase;
+    margin-right: 5px;
 }
 /*主体*/
 main {
@@ -88,6 +90,7 @@ footer h2 {
     font-size: 16px;
     color: #333;
     text-transform: uppercase;
+	  font-size: 18px;
 }
 
 .hr {
@@ -157,7 +160,7 @@ footer {
 
 .active {
     display: flex;
-    justify-content: space-between;
+    justify-content: flex-start;
     margin-bottom: 20px;
 }
 
